@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="module">
+      import { generateMeshGradient } from "https://cdn.skypack.dev/meshgrad";
+
+      // Number of color stops
+      const ELEMENTS = 6;
+
+      let box = document.getElementById("box");
+      box.style = generateMeshGradient(ELEMENTS);
+      box.style.width = "500px";
+      box.style.height = "500px";
+    </script>
+    <div id="box">HI</div>
+  </body>
+</html>

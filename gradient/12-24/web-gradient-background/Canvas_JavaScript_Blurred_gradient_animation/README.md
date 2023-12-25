@@ -1,0 +1,2 @@
+- Source : Canvas JavaScript | Blurred gradient animation
+- https://www.youtube.com/watch?v=2k4qqqGoCFA
